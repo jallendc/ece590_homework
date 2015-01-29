@@ -2,13 +2,12 @@
  Blink(LED)
  Modified from OpenCM example of Blink(LED)
  
- Turns on the built-in LED(Status LED) on for 0.1 second, then off for 0.1 second,
- repeatedly. BOARD_LED_PIN is defined previously, so just use it without declaration.
- BOARD_LED_PIN was connected to pin 16 in CM-900, but connected to pin 14 in OpenCM9.04.
+ Turns on the built-in LED(Status LED) on for 1 second, then off for 1 second,
+ repeatedly.
 
                 Compatibility
 CM900                  O
-OpenCM9.04             0
+OpenCM9.04             O
 
  created 16 Nov 2012
  by ROBOTIS CO,.LTD.
