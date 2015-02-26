@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+//code edited from inclass code used
+
+>>>>>>> origin/master
 byte index = 0;
 char inChar; // Where to store the character read
 
@@ -24,6 +29,10 @@ void loop() {
     Serial1.print("ret: ");
     Serial1.println(inData);
     Serial1.println(13);
+<<<<<<< HEAD
+=======
+    Serial1.println(10);
+>>>>>>> origin/master
     
     if(inData[0] == 97){
       
@@ -35,4 +44,7 @@ void loop() {
   }
   delay(20);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
